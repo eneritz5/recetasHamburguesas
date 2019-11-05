@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64.38 12.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_6);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_6" data-name="Degradado sin nombre 6" x1="22.82" y1="-11.38" x2="42.14" y2="22.07" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcc6d"/>
+      <stop offset="1" stop-color="#a76700"/>
+    </linearGradient>
+  </defs>
+  <title>panabajo</title>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="Capa_1-2" data-name="Capa 1">
+      <path class="cls-1" d="M4.26,0H60.12a4.26,4.26,0,0,1,4.26,4.26v0a8.62,8.62,0,0,1-8.62,8.62H8.62A8.62,8.62,0,0,1,0,4.26v0A4.26,4.26,0,0,1,4.26,0Z"/>
+    </g>
+  </g>
+</svg>

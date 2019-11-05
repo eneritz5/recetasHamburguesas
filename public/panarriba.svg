@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 65.72 28.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_6);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_6" data-name="Degradado sin nombre 6" x1="20.29" y1="1.37" x2="42.5" y2="39.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdcc6d"/>
+      <stop offset="1" stop-color="#a76700"/>
+    </linearGradient>
+  </defs>
+  <title>panarriba</title>
+  <g id="Capa_2" data-name="Capa 2">
+    <g id="Capa_1-2" data-name="Capa 1">
+      <path class="cls-1" d="M60.85,28.38c3,0,5.3-2.25,4.81-4.74C63,10.22,49.34,0,32.86,0S2.71,10.22.07,23.64c-.49,2.49,1.84,4.74,4.8,4.74Z"/>
+    </g>
+  </g>
+</svg>

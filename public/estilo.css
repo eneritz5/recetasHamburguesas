@@ -1,0 +1,498 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.logo{
+    margin: 20px;
+
+}
+
+.headerRegistro{
+    display: flex;
+}
+
+.botonTodasRecetas{
+    background-color: #AA4225;
+    padding: 18px;
+    border-radius: 50px;
+    border-style: none;
+    color: #f0ECC9;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 350px;
+}
+
+
+.buscarYBotonHambre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.teAcabasDeRegistrarLogin{
+    display: flex;
+    justify-content: center;
+}
+
+.teAcabasDeRegistrar{
+    display:flex;
+    flex-direction: column;
+}
+.teAcabasDeRegistrar > p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.buscarFormulario{
+    padding:0px;
+}
+
+.buscarFormulario input::placeholder{
+    color:#f0ECC9
+
+}
+
+.buscarFormulario input{
+    background-color: #AA4225;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #f0ECC9;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.buscarFormulario button{
+    background-color: #AA4225;
+    width: 240px;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #f0ECC9;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.buscarFormulario form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12pt;
+}
+.buscarFormulario button:hover{
+background-color: #372813;
+}
+
+.botonHambre{
+    width: 350px;
+    font-family: 'Nunito Sans', sans-serif;
+    animation-name: animation;
+    animation-duration: 2s;
+    
+}
+
+.botonTodasRecetas:hover{
+    background-color:#372813;
+    
+}
+.pruebaConOtroNombreHamburguesa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Grenze', serif;
+}
+header{
+    display:flex;
+    flex-direction: row;
+}
+.registrarseEIniciarSesion{
+    margin-left: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.registrarFaltanDatosEnvuelve{
+    display: flex;
+    justify-content: center;
+}
+.registrarFaltaDatos{
+    width: 151px;
+    display: flex;
+    flex-direction: column;
+}
+.registrarFaltaDatos input{
+    border:none;
+    border-bottom: 2px solid #058789;
+    background-color: #b0282800;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.registrarFaltaDatos button{
+    border-style: none;
+    background:#AA4225;
+    margin-top: 10px;
+    color: #f0ECC9;
+    padding: 5px;
+    border-radius: 3px;
+    align-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+}
+
+.registrarFaltaDatos button:hover{
+    background-color: #058789;
+}
+
+
+
+.registrar{
+    width: 151px;
+}
+
+.registrar input{
+    border:none;
+    border-bottom: 2px solid #058789;
+    background-color: #b0282800;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.registrar button{
+    border-style: none;
+    background:#AA4225;
+    margin-top: 10px;
+    color: #f0ECC9;
+    padding: 5px;
+    border-radius: 3px;
+    align-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+}
+
+.registrar button:hover{
+    background-color: #058789;
+}
+
+.login button:hover{
+    background-color: #058789;
+}
+
+.login input{
+    border:none;
+    border-bottom: 2px solid #058789;
+    background-color: #b0282800;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.login button{
+    border-style: none;
+    background:#AA4225;
+    margin-top: 10px;
+    color: #f0ECC9;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+}
+
+
+.login{
+    width: 151px;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.registrar form{
+    width: 20%;
+}
+
+.nombreReceta{
+    font-family: 'Grenze', serif;
+    color: #AA4225;
+    margin-top:0;
+    font-size: 27pt;
+    line-height: 43px;
+    margin-bottom: 14px;
+}
+
+label{
+    
+    font-size: 24px;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #f0ECC9;
+    margin: 0;
+    
+}
+
+.hamburguesaRecetaMostrar{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.hamburguesaTexto{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.imagenHamburguesa{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    justify-content: space-between;
+    animation-name: animation;
+    animation-duration: 2s;
+}
+
+
+.animation-target {
+    -webkit-animation: animation 1000ms linear both;
+    animation: animation 1000ms linear both;
+  }
+  
+  /* Generated with Bounce.js. Edit at http://bouncejs.com#%7Bs%3A%5B%7BT%3A%22t%22%2Ce%3A%22b%22%2Cd%3A1000%2CD%3A0%2Cf%3A%7Bx%3A-300%2Cy%3A0%7D%2Ct%3A%7Bx%3A0%2Cy%3A0%7D%2Cs%3A5%2Cb%3A4%7D%2C%7BT%3A%22c%22%2Ce%3A%22s%22%2Cd%3A1000%2CD%3A0%2Cf%3A%7Bx%3A1%2Cy%3A1%7D%2Ct%3A%7Bx%3A2%2Cy%3A1%7D%2Cs%3A5%2Cb%3A4%7D%5D%7D */
+  
+  @-webkit-keyframes animation { 
+    0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); }
+    2.6% { -webkit-transform: matrix3d(1.207, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -180.779, 0, 0, 1); transform: matrix3d(1.207, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -180.779, 0, 0, 1); }
+    4.1% { -webkit-transform: matrix3d(1.247, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -125.912, 0, 0, 1); transform: matrix3d(1.247, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -125.912, 0, 0, 1); }
+    5.11% { -webkit-transform: matrix3d(1.254, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -95.52, 0, 0, 1); transform: matrix3d(1.254, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -95.52, 0, 0, 1); }
+    8.11% { -webkit-transform: matrix3d(1.218, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -31.647, 0, 0, 1); transform: matrix3d(1.218, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -31.647, 0, 0, 1); }
+    11.41% { -webkit-transform: matrix3d(1.146, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.872, 0, 0, 1); transform: matrix3d(1.146, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.872, 0, 0, 1); }
+    12.11% { -webkit-transform: matrix3d(1.131, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.53, 0, 0, 1); transform: matrix3d(1.131, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.53, 0, 0, 1); }
+    16.12% { -webkit-transform: matrix3d(1.06, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 13.007, 0, 0, 1); transform: matrix3d(1.06, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 13.007, 0, 0, 1); }
+    17.62% { -webkit-transform: matrix3d(1.041, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.37, 0, 0, 1); transform: matrix3d(1.041, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.37, 0, 0, 1); }
+    23.92% { -webkit-transform: matrix3d(1.002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.235, 0, 0, 1); transform: matrix3d(1.002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.235, 0, 0, 1); }
+    27.23% { -webkit-transform: matrix3d(0.997, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.352, 0, 0, 1); transform: matrix3d(0.997, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.352, 0, 0, 1); }
+    30.13% { -webkit-transform: matrix3d(0.996, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.831, 0, 0, 1); transform: matrix3d(0.996, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.831, 0, 0, 1); }
+    38.34% { -webkit-transform: matrix3d(0.998, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.311, 0, 0, 1); transform: matrix3d(0.998, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.311, 0, 0, 1); }
+    55.16% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.002, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.002, 0, 0, 1); }
+    60.56% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1); }
+    80.18% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    82.78% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+  }
+  
+  @keyframes animation { 
+    0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); }
+    2.6% { -webkit-transform: matrix3d(1.207, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -180.779, 0, 0, 1); transform: matrix3d(1.207, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -180.779, 0, 0, 1); }
+    4.1% { -webkit-transform: matrix3d(1.247, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -125.912, 0, 0, 1); transform: matrix3d(1.247, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -125.912, 0, 0, 1); }
+    5.11% { -webkit-transform: matrix3d(1.254, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -95.52, 0, 0, 1); transform: matrix3d(1.254, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -95.52, 0, 0, 1); }
+    8.11% { -webkit-transform: matrix3d(1.218, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -31.647, 0, 0, 1); transform: matrix3d(1.218, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -31.647, 0, 0, 1); }
+    11.41% { -webkit-transform: matrix3d(1.146, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.872, 0, 0, 1); transform: matrix3d(1.146, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.872, 0, 0, 1); }
+    12.11% { -webkit-transform: matrix3d(1.131, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.53, 0, 0, 1); transform: matrix3d(1.131, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.53, 0, 0, 1); }
+    16.12% { -webkit-transform: matrix3d(1.06, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 13.007, 0, 0, 1); transform: matrix3d(1.06, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 13.007, 0, 0, 1); }
+    17.62% { -webkit-transform: matrix3d(1.041, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.37, 0, 0, 1); transform: matrix3d(1.041, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.37, 0, 0, 1); }
+    23.92% { -webkit-transform: matrix3d(1.002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.235, 0, 0, 1); transform: matrix3d(1.002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.235, 0, 0, 1); }
+    27.23% { -webkit-transform: matrix3d(0.997, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.352, 0, 0, 1); transform: matrix3d(0.997, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.352, 0, 0, 1); }
+    30.13% { -webkit-transform: matrix3d(0.996, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.831, 0, 0, 1); transform: matrix3d(0.996, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.831, 0, 0, 1); }
+    38.34% { -webkit-transform: matrix3d(0.998, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.311, 0, 0, 1); transform: matrix3d(0.998, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.311, 0, 0, 1); }
+    55.16% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.002, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.002, 0, 0, 1); }
+    60.56% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.007, 0, 0, 1); }
+    80.18% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    82.78% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+    100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+  }
+  
+  
+  
+.hamburguesaRecetaMostrar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuUsuario{
+    display:flex;
+    flex-direction: row;
+    padding:0;
+    width:100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.menuUsuario button{
+    border-style: none;
+    background-color: #AA4225;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+    color: #f0ECC9;
+    margin-top: -16px;
+    font-size: 12px;
+    height: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.menuUsuario button:hover{
+    
+    background-color: #058789;
+   
+}
+
+.aynadirBoton{
+    border-style: none;
+    background-color: #AA4225;
+    margin-bottom: 10px;
+    color: #f0ECC9;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 7px;
+}
+
+.aynadirBoton:hover{
+    background-color: #058789;
+    
+}
+
+.aynadirRecetaTexto{
+    border:none;
+    border-bottom: 2px solid #058789;
+    background-color: #b0282800;
+    color: #372813;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+
+}
+
+.formularioAynadirReceta{
+    display: flex;
+    justify-content: center;
+    font-family: 'Grenze', serif;
+    color: #372813;
+}
+
+.formularioAynadirReceta > form > label > input{
+    margin-bottom: 20px;
+}
+
+.formularioAynadirReceta > form > label > div > input{
+    margin-bottom: 20px;
+}
+
+.textoPreparacion{
+    display:flex;
+    flex-direction: column;
+}
+
+.aynadirRecetaTextoPreparacion{
+    border:none;
+    border: 2px solid #058789;
+    background-color: #b0282800;
+    color: black;
+}
+
+.labelPreparacion{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#cuantosIngredientes{
+    display: flex;
+    flex-direction:column
+
+}
+
+textarea{
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.recetaUsuarioAynade{
+    display: flex;
+    flex-direction:column
+}
+
+.botonAynadirIngrediente{
+    border-style: none;
+    background-color: #AA4225;
+    color: #f0ECC9;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: 10px;
+}
+
+.botonAynadirIngrediente:hover{
+    background-color: #058789;
+}
+
+.ingredientes{
+    display:flex;
+    flex-direction: column;
+}
+
+.botonRestarIngrediente{
+    border-style: none;
+    background-color: #AA4225;
+    margin-bottom: 10px;
+    color: #f0ECC9;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.botonRestarIngrediente:hover{
+    background-color: #058789;
+}
+.ingredientesBotonMasMenos{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+p{
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+::-webkit-input-placeholder {
+    color:#AA4225;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  ::-moz-placeholder {
+    color: #AA4225;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  :-ms-input-placeholder {
+    color: #AA4225;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  ::placeholder {
+    color: #AA4225;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
